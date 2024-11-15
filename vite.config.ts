@@ -10,7 +10,7 @@ export default defineConfig({
   optimizeDeps: {
     include: ['canvas-confetti'],
   },
-  base: './',
+  base: '/my_game/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
